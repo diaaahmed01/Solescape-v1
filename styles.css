@@ -1,0 +1,514 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(10, 1, 17);
+    color: white;
+    font-family: "Arimo", Arial;
+}
+
+
+
+header {
+
+    display: flex;
+    padding: 10px;
+    height: 20px;
+    justify-content: flex-start;
+    background-color: rgb(23, 22, 37);
+    align-items: center;
+}
+
+.search-feild {
+
+    background-color: rgb(46, 44, 54);
+    margin-left: 120px;
+    display: flex;
+    flex: 1;
+    flex-shrink: 1;
+    padding: 3px;
+    max-width: 300px;
+    border-radius: 2px;
+}
+
+.search-feild img {
+    border: none;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+
+}
+
+.search-feild input {
+
+    width: 280px;
+    background-color: transparent;
+    margin: 0;
+
+
+    border: none;
+
+
+
+}
+
+.search-feild input::placeholder {
+    font-size: 10px;
+    color: rgb(156, 156, 156);
+    padding-left: 5px;
+}
+
+
+.header-text {
+    max-width: 150px;
+
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: transparent;
+
+}
+
+.header-right {
+    display: flex;
+    margin-right: 30px;
+    margin-left: auto;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: transparent;
+
+}
+
+.header-right p {
+    background-color: rgb(26, 19, 39);
+    font-size: 12px;
+
+
+}
+
+.header-right-img {
+    border: none;
+    margin-right: 6px;
+    padding: 3px;
+    background-color: rgb(126, 126, 126);
+    background-size: contain;
+
+    border-radius: 20px;
+
+
+
+}
+
+.header-right-img img {
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+}
+
+
+.main-header {
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    display: flex;
+    margin-bottom: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(183, 183, 183, 0.303);
+}
+
+.main-header nav {
+
+
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+}
+
+.nav__links {
+
+    display: flex;
+    background-color: transparent;
+
+}
+
+.nav__links li,
+ul,
+a {
+    background-color: transparent;
+    padding-right: 10px;
+    font-size: 12px;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.nav__links a:hover {
+    color: purple;
+}
+
+.second-nav-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 200px;
+    align-items: center;
+    margin-right: 0;
+    margin: 0;
+    gap: 10px;
+
+}
+
+
+
+.second-nav-right a button {
+    border: none;
+    padding: 7px 10px;
+    font-weight: 200;
+    font-size: 12px;
+    margin-right: 0;
+    margin-left: 5px;
+    border-radius: 3px;
+    background-color: transparent;
+    background: linear-gradient(to right, #3370e2, #9715b8);
+}
+
+
+.wrapper {
+
+    margin-top: 7px;
+    display: flex;
+    margin: 20px 30px;
+
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.main-Heading {
+    align-self: start;
+}
+
+.main-Heading pre {
+    margin-top: 10px;
+    word-spacing: 20px;
+
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 40px;
+
+    line-height: 1.25rem;
+
+}
+
+.main-Heading pre span {
+    background-color: transparent;
+    background: linear-gradient(to right, #3370e2, #9715b8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.section-one {
+    margin-top: 10px;
+    display: flex;
+}
+
+.section-one-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    justify-items: flex-start;
+
+
+}
+
+
+.section-one-right {
+    flex: 1;
+
+
+
+
+    display: flex;
+
+
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.section-one-right img {
+    background-color: transparent;
+
+}
+
+.crossed-lines {
+
+    width: 100%;
+
+
+}
+
+.top-line {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+    background-color: #262626;
+    height: 30px;
+    transform: translatey(-50%) rotate(4deg);
+}
+
+.top-line h6 {
+    background-color: transparent;
+
+    font-size: 12px;
+}
+
+.bottom-line {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: greenyellow;
+
+    height: 30px;
+    transform: translatey(50%) rotate(-4deg);
+}
+
+.bottom-line h6 {
+    background-color: transparent;
+    color: black;
+}
+
+.section-two {
+    justify-content: space-between;
+    background-color: transparent;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+
+
+}
+
+.shoe-item {
+    background-color: rgb(25, 17, 33);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.shoe-item p {
+    margin-bottom: 5px;
+    background-color: transparent;
+}
+
+.section-three{
+    display:  flex;
+    margin-top: 80px;
+    justify-content: space-around;
+    width: 100%;
+    height: 250px;
+    gap: 30px;
+  
+}
+
+.section-three-item-left{
+    position: relative;
+    border-block-end-style: solid;
+    border-block-end-width: 1px;
+    border-block-end-color: greenyellow;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    
+    width: 50%;
+    margin-left: 30px;
+}
+
+.section-three-item-left::before{
+    content: "";
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/run-nike-running-shoes-646cdd1a19c41.jpg);
+    opacity: 0.5;
+    background-size: cover;
+}
+
+.section-three-item-right{
+    position: relative;
+    border-block-end-style: solid;
+    border-block-end-width: 1px;
+    border-block-end-color: greenyellow;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    width: 50%;
+    margin-left: 30px;
+}
+
+.section-three-item-right::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/image.jpg);
+    opacity: 0.5;
+    background-size: cover;
+}
+
+.content{
+    background-color: transparent;
+    margin-left: 15px;
+    border-radius: 15px;
+   
+    position: relative;
+    margin-bottom: 30px;
+    z-index: 1;
+}
+ .content h3,b{
+    background-color: transparent;
+ }
+
+.content p{
+    margin-top: 15px;
+    word-spacing: 2px;
+    width: 90%;
+    background-color: transparent;
+    font-size: 12px;
+    color: #d4d4d4;
+    line-height:1.1rem;
+}
+
+.content button{
+    margin-top: 10px;
+    color: black;
+    background-color: white;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 6px 20px;
+}
+
+.section-four{
+    width: 100%;
+display: flex;
+flex-direction: column;
+
+align-items: center;
+    margin-top: 70px;
+  
+}
+.section-four button{
+    background: linear-gradient(to right, #3370e2, #9715b8);
+    border: none;
+    width: 12%;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.section-four-heading{
+    margin-right: auto;
+   
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.shoe-item-2{
+    
+    background-color: rgba(25, 17, 33,0.5);
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.shoe-item-2 p {
+    margin-bottom: 5px;
+   
+    background-color: transparent;
+}
+
+.shoe-item-2 .heart{
+    background-color: transparent;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+}
+
+.shoe-item-2-active{   background: linear-gradient(to right, #3370e2, #9715b8);
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;}
+
+
+    .shoe-item-2-active p {
+        margin-bottom: 5px;
+       
+        background-color: transparent;
+    }
+    
+    .shoe-item-2-active .heart{
+        background-color: transparent;
+        height: 20px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 20px;
+    }
+
+
+.section-four-grid{
+  
+    width: 100%;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  
+}
+
+footer{
+    width: 100%;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(231, 231, 231, 0.399);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.socails{
+    width: 35%;
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
